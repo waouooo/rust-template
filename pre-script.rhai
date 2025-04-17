@@ -1,5 +1,7 @@
 // we can see existing variables.
 // note that template and Rhai variables are separate!
+file::delete(".github/workflows/release.yml");
+file::rename(".github/workflows/build.yml.template", ".github/workflows/build.yml");
 
 let license = variable::get("license").to_upper();
 while switch license {
