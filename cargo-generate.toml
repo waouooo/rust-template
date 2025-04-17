@@ -1,2 +1,10 @@
 [template]
 exclude = ["cliff.toml"]
+
+[hooks]
+pre = ["pre-script.rhai"]
+
+[placeholders]
+crate_version = { type = "string", prompt = "Enter version for crate?", default = "0.1.0" }
+rust_edition = { type = "string", prompt = "Enter edition for crate?", default = "2021" }
+license = { type = "string", prompt = "What license to use?", choices = ["APACHE", "MIT"], default = "MIT" }

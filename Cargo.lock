@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "template"
-version = "0.1.0"
+name = "{{crate_name}}"
+version = "{{crate_version}}"
