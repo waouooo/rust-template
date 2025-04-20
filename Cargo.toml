@@ -1,10 +1,10 @@
 [package]
-name = "{{crate_name}}"
-version = "{{crate_version}}"
-authors = ["{{authors}}"]
-edition = "{{rust_edition}}"
-license = "{{license}}"
-
+name = "rust-template"
+version = "1.0.0"
+authors = ["waouooo waouooo@163.com"]
+edition = "2024"
+description = "template for rust project"
+license = "MIT"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]

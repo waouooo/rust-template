@@ -1,0 +1,10 @@
+[package]
+name = "{{crate_name}}"
+version = "{{crate_version}}"
+authors = ["{{authors}}"]
+edition = "{{rust_edition}}"
+description = "{{description}}"
+{% if license != "NONE" %}license = "{{license}}"{% endif %}
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
