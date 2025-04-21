@@ -6,6 +6,6 @@ pre = ["pre-script.rhai"]
 
 [placeholders]
 crate_version = { type = "string", prompt = "Enter version for crate", default = "0.1.0" }
-rust_edition = { type = "string", prompt = "Enter edition for crate", default = "2024" }
+rust_edition = { type = "string", prompt = "Enter edition for crate", choices = ["2024", "2021", "2018"], default = "2024" }
 license = { type = "string", prompt = "What license to use?", choices = [ "MIT", "APACHE", "NONE"], default = "MIT" }
 description = { type = "string", prompt = "Enter description for crate", default = "" }

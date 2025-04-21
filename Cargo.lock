@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "{{crate_name}}"
-version = "{{crate_version}}"
+name = "rust-template"
+version = "1.0.0"
