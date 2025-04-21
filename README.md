@@ -50,3 +50,18 @@ cargo gengerate waouooo/rust-template
 ```bash
 pre-commit install
 ```
+
+## Q&A
+
+1. cargo deny check报错
+```
+cargo deny check.........................................................Failed
+- hook id: cargo-deny
+- exit code: 1
+
+2025-04-21 15:24:18 [ERROR] failed to interpret `cargo metadata`'s json: unknown variant `2024`, expected one of `2015`, `2018`, `2021` at line 1 column 44169: unknown variant `2024`, expected one of `2015`, `2018`, `2021` at line 1 column 44169
+```
+升级rust版本后未更新最新的cargo deny版本，导致报错。更新版本后正常。
+```bash
+cargo install cargo-deny
+```
